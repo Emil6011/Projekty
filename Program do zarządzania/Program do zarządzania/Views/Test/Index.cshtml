@@ -1,0 +1,76 @@
+﻿@model List<Zadanie_1_MVC_Dobre.Models.Klient>
+
+
+	<div>
+	<table class="table table-bordered">
+		<tr class="table-primary">
+		<td> Id</td>
+		<td>Nazwa</td>
+		<td>Nazwisko</td>
+		<td> Pesel</td>
+		<td>Rok urodzenia</td>
+			<td>Płeć (0=K, 1=M)</td>
+			<td>Akcje</td>
+	</tr>
+
+	@foreach(var klient in Model)
+		{
+
+			<tr> 
+				<td>@klient.id</td>
+				<td>@klient.name</td>
+				<td>@klient.surname</td>  
+				<td>@klient.pesel</td>
+				<td>@klient.rok_urodzenia</td>
+				<td>@klient.plec</td>
+				<td>                                  
+					<div class="d-flex flex-column align-items-center">
+					<form asp-controler="Test" asp-action="Edit" method="post" >
+							<input asp-for="@klient.id" type="hidden" name="id">
+							<input asp-for="@klient.name" type="hidden" name="name">
+							<input asp-for="@klient.rok_urodzenia" type="hidden" name="rok_urodzenia">
+							<input asp-for="@klient.surname" type="hidden" name="surname">
+							<input asp-for="@klient.pesel" type="hidden" name="pesel">
+							<input asp-for="@klient.plec" type="hidden" name="plec">
+							<button class="btn btn-outline-primary btn-sm szerokosc"> Edytuj </button>
+					</form> 
+
+						<form asp-controler="Test" asp-action="Usun" method="post">
+							<input asp-for="@klient.id" type="hidden" name="id"> 
+							<button class="btn btn-outline-primary btn-sm mt-2 szerokosc   "> Usuń </button>
+						</form>
+
+					</div>
+				</td>
+			</tr>
+		}
+
+
+</table>
+
+</div> 
+
+<div class="d-flex align-items-center justify-content-center">
+	<form asp-controler="Test" asp-action="Create" method="post" class="me-3" > 
+
+		<button class="btn btn-primary "> Dodaj nowego użytkownika </button>
+	</form>
+	
+	<form asp-controler="Test" asp-action="CSV" method="post">
+
+		<button class="btn btn-primary  me-3"> Importuj liste z pliku </button>
+	</form>
+	
+	<form asp-controler="Test" asp-action="EksportujWidok" method="post">
+
+		<button class="btn btn-primary" > Eksportuj liste do pliku </button>
+	</form>
+
+</div>
+
+
+
+
+
+
+

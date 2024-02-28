@@ -1,0 +1,13 @@
+﻿@model Zadanie_1_MVC_Dobre.Models.Klient
+
+<div class="rozmiar ">
+	<h1 class="h1 mb-4 text-center">Edytuj użytkownika</h1>
+	<form asp-controller="Test" asp-action="Edytuj">
+		<input asp-for="@Model.id" type="hidden" name="id">
+
+		@Html.Partial("_FormularzPartial", Model);
+
+	</form>
+
+
+</div>

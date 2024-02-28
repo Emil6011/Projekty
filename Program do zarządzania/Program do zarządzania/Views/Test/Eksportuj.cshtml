@@ -1,0 +1,24 @@
+﻿<div class="d-flex flex-column justify-content-center align-items-center line border p-3 szer">
+    <form asp-controller="Test" asp-action="Eksportuj" method="post" class="me-3 text-center">
+        <fieldset>
+            <legend> Eksport do:</legend>
+            <div class="text-center mb-3">
+                <label for="opcja1"> CSV</label>
+                <input type="radio" name="grupa" value="opcja1" id="opcja1" />
+            </div>
+            <div class="text-center">
+                <label for="opcja2"> XLSX</label>
+                <input type="radio" name="grupa" value="opcja2" id="opcja2" />
+            </div>
+            <button class="btn btn-sm btn-primary mt-3"> Eksportuj listę do pliku </button>
+        </fieldset>
+    </form>
+    <form asp-controller="Test" asp-action="Index" method="post" class="text-center">
+        <div class="d-flex justify-content-center mt-3 powrotszer">
+            <button class="btn btn-sm btn-primary me-2 powrotszer">
+                Powrót
+            </button>
+
+        </div>
+    </form>
+</div>

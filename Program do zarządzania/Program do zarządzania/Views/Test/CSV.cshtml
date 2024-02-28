@@ -1,0 +1,19 @@
+﻿<div class="d-flex flex-column align-items-center justify-content-center text-center line border p-3 szer">
+    <h1 class="mb-5">Dodaj plik CSV lub XLSX</h1>
+
+    <form asp-controller="Test" asp-action="Importuj" method="post" enctype="multipart/form-data">
+        <div class="mb-5">
+            <input type="file" name="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+        </div>
+
+        <div>
+            <button class="btn btn-primary powrotszer">Dalej</button>
+        </div>
+    </form>
+    <form asp-controller="Test" asp-action="Index" method="post" >
+      
+            <button class="btn btn-primary mt-4 powrotszer">Powrót
+            </button>
+       
+    </form>
+</div>

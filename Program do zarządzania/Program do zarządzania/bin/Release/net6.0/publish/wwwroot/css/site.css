@@ -1,0 +1,59 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.PrzyciskiWtabeli {
+    width: 60px;
+    height: 42px;
+}
+.marginesy {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+.szerokosc
+{
+    width: 60px;
+}
+
+.rozmiar
+{
+
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.ml
+{
+    margin-left: 100px;
+}
+
+.szer
+{
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.powrotszer
+{
+
+    width: 160px;
+
+}
