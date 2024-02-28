@@ -10,7 +10,8 @@ Aplikacja do zarządzania pracownikami. Program został wykonany w technologii c
 
 Główny interfejs aplikacji
 
-![image](https://github.com/Emil6011/Projekty/assets/73350365/acc5ba43-e866-4d8f-8183-f99053b06358)
+![image](https://github.com/Emil6011/Projekty/assets/73350365/6b80493f-d576-4cdb-b083-7e2662aa5757)
+
 
 Widok dodawania nowego użytkownika 
 
