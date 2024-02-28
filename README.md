@@ -1,12 +1,12 @@
 # Projekty
 
 Aplikacja do zarządzania pracownikami. Program został wykonany w technologii c# ASP .NET Core MVC, wykorzystana została baza danych SQL server. Aplikacja posiada następujące funkcjonalności:
--Wyświetlenie listy użytkowników
--Dodanie nowego użytkownika
--Edytowanie danych użytkownika
--Usunięcie użytkownika
--Eksport listy użytkowników do CSV lub XLSX
--Import listy użytkowników z pliku CSV lub XLSX
+wyświetlenie listy użytkowników,
+Dodanie nowego użytkownika,
+Edytowanie danych użytkownika,
+Usunięcie użytkownika,
+Eksport listy użytkowników do CSV lub XLSX,
+Import listy użytkowników z pliku CSV lub XLSX.
 
 Główny interfejs aplikacji
 
