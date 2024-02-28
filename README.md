@@ -1,7 +1,7 @@
 # Projekty
 Projekty wykonane w ramach treningu
 
-1.Aplikacja do zarządzania pracownikami. Program został wykonany w technologii c# ASP .NET Core MVC, wykorzystana została baza danych SQL server. Aplikacja posiada następujące funkcjonalności:
+1. Aplikacja do zarządzania pracownikami. Program został wykonany w technologii c# ASP .NET Core MVC, wykorzystana została baza danych SQL server. Aplikacja posiada następujące funkcjonalności:
 -Wyświetlenie listy użytkowników
 -Dodanie nowego użytkownika
 -Edytowanie danych użytkownika
